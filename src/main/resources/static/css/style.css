@@ -1,0 +1,27 @@
+
+
+.containerTable{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.thText1{
+	margin-right: 10px;
+}
+
+.tdText1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.title{
+	color: black;
+}
+

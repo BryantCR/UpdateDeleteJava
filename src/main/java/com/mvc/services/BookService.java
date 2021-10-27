@@ -33,11 +33,15 @@ public class BookService {
         } else {
             return null;
         }
-    }
+    } 
     
     public Book updateBook(Long id, String title, String description, String lang, int numOfPages) {
-    	
     	Book b = new Book (id, title, description, lang, numOfPages);
+        return bookRepository.save(b);
+    }
+    
+    public Book updateBook2(Book b) {
+    	//Book b = new Book (id, title, description, lang, numOfPages);
         return bookRepository.save(b);
     }
     
